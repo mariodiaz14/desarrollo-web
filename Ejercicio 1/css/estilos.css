@@ -1,0 +1,39 @@
+table{
+    border: solid 1px black;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+td{
+    border: solid 1px black;
+    text-align: center;
+
+}
+
+.vertical{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.izquierda{
+    text-align: start;
+}
+
+#negro{
+    background-color: gray;
+}
+
+.blanco{
+    color: white;
+}
+
+#tabla{
+    display: flex;
+    justify-content: center;
+}
+
+#boton{
+    font-size: 1.5em;
+    height: 1.5em;
+    width: 4em;
+}
